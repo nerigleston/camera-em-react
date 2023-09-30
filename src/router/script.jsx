@@ -1,8 +1,8 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import '../router/script.jsx'
-import Home from '../Page/pageInicial/script.jsx'
-import '../Page/pageInicial/style.css'
+import Home from '../page/pageInicial/script.jsx'
+import '../page/pageInicial/style.css'
 
 
 ReactDOM.render(

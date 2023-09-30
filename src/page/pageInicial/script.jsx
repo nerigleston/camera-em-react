@@ -1,5 +1,5 @@
 import React from 'react';
-import { useCamera } from '../../Script/Câmera/script';
+import { useCamera } from '../../script/câmera/script';
 
 function Home() {
   const { stream, error } = useCamera();
