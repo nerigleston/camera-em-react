@@ -1,0 +1,34 @@
+body{
+  background-color: black;
+  color: white;
+  font: 2rem Roboto, -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+}
+
+.camera {
+  align-items: center; 
+  display: flex;
+  flex-direction: column;
+  height: 70vh;
+  justify-content: center;
+}
+
+#mostraImagem{
+  border-radius: 5px;
+}
+
+.p{
+  display: flex;
+  justify-content: center;
+}
+
+#caixaErro {
+  background-color: #ffffffc4;
+  border-radius: 5px;
+  color: black;
+  display: none;
+  left: 50%;
+  padding: 20px;
+  position: fixed;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
